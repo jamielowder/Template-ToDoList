@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+
+<script type = "text/javascript">
+//Updates user input for now changes the color
+
+function update(){
+	alert("updated");
+}
+function add(){
+	alert("added");
+}
+</script>
+
+	<title>Welcome</title>
+</head>
+Add to List<input type="text" id="item">
+<button onclick="add()">Add</button>
+<body>
+	<table id = "tableList">
+		<tr>
+			<td>
+				Here is the todo list
+			</td>
+		</tr>
+	</table>
+	
+	<button onclick="update()">Update</button>
+	<button onclick="delete()">delete</button>
+</body>
+</html>
